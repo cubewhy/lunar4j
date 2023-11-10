@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
 group = 'top.lunarclient.lunar4j'
@@ -20,3 +21,55 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+//publishing {
+//    publications {
+//        mavenJava(MavenPublication) {
+//            version "${version}"
+//            from components.java
+//
+//            pom {
+//                name = "lunar4j"
+//                description = "Fly to the moon"
+//                url = "https://github.com/cubewhy/lunar4j"
+//                licenses {
+//                    license {
+//                        name = "GNU General Public License version 3"
+//                        url = "https://www.gnu.org/licenses/gpl-3.0.en.html"
+//                    }
+//                }
+//                developers {
+//                    developer {
+//                        id = "cubewhy"
+//                        name = "cubewhy"
+//                        email = "me@lunarclient.top"
+//                    }
+//                }
+//                scm {
+//                    connection = "scm:git:https://github.com/cubewhy/lunar4j.git"
+//                    developerConnection = "scm:git:https://github.com/cubewhy/lunar4j.git"
+//                    url = "https://github.com/cubewhy/lunar4j"
+//                }
+//            }
+//        }
+//    }
+//    repositories {
+//        maven {
+//            name 'sonatype'
+//            url 'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
+//            credentials {
+//                username = ossrhUsername
+//                password = ossrhPassword
+//            }
+//        }
+//
+//        maven {
+//            name = 'sonatypeSnapshot'
+//            url = 'https://s01.oss.sonatype.org/content/repositories/snapshots/'
+//            credentials {
+//                username = ossrhUsername
+//                password = ossrhPassword
+//            }
+//        }
+//    }
+//}
