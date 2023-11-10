@@ -18,6 +18,6 @@ public class TestMeta {
 
     @Test
     public void test1_8() throws Exception {
-        System.out.println("official.getArtifacts(\"1.8.9\", \"master\", \"lunar\") = " + official.getArtifacts("1.8.9", "master", "lunar"));
+        System.out.println("official.getArtifacts(\"1.8.9\", \"master\", \"lunar\") = " + official.getVersion("1.8.9", "master", "lunar"));
     }
 }
