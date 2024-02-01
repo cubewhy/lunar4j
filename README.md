@@ -1,6 +1,6 @@
 # Lunar for Java
 
-> LunarClient LauncherLib improved
+> This project is DEPRECATED! Get [Celestial](https://github.com/CubeWhyMC/celestial) today!
 
 ## NOT an official library
 
